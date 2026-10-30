@@ -6,5 +6,12 @@ int main(void) {
 
 
     
+    int x;
+    double result;
+
+    scanf("%d", &x);
+    result = 1.0 / ((double)x + 100.0);
+    printf("%.15f", result);
+
     return 0;
 }
